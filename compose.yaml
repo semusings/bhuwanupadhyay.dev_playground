@@ -1,0 +1,8 @@
+services:
+  broker:
+    build:
+      dockerfile: rabbitmq.dockerfile
+      context: ./
+    image: playground-broker
+    ports:
+      -
